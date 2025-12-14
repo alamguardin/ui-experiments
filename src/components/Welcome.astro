@@ -17,7 +17,7 @@ import Astroo from './icons/Astro.astro'
 		<p class="hero-author">Created by <a href="https://github.com/alamguardin">@alamguardin</a></p>
 		<p class="hero-description">Beautiful and accessible toasts web component.</p>
 		<div class="hero-actions">
-			<button role="button" class="hero-btn-dark">Show toast</button>
+			<button role="button" class="hero-btn-dark" id="example">Show toast</button>
 			<a href="https://github.com/alamguardin/wc-beru-docs/wiki" role="button" class="hero-btn-light">Documentation</a>
 		</div>
 	</header>
@@ -55,23 +55,23 @@ import Astroo from './icons/Astro.astro'
 			<h4 class="example-feature-title">Types</h4>
 			<p class="example-feature-description">You can customize the type of toast you want to render, and pass an options object as the second argument.</p>
 			<div class="example-feature-actions">
-				<button class="example-btn">Default</button>
-				<button class="example-btn">Success</button>
-				<button class="example-btn">Info</button>
-				<button class="example-btn">Error</button>
-				<button class="example-btn">Warning</button>
+				<button class="example-btn" id="default">Default</button>
+				<button class="example-btn" id="success">Success</button>
+				<button class="example-btn" id="info">Info</button>
+				<button class="example-btn" id="error">Error</button>
+				<button class="example-btn" id="warning">Warning</button>
 			</div>
 		</div>
 		<div class="example-feature">
 			<h4 class="example-feature-title">Positions</h4>
 			<p class="example-feature-description">Swipe direction changes depending on the position.</p>
 			<div class="example-feature-actions">
-				<button class="example-btn">Top left</button>
-				<button class="example-btn">Top center</button>
-				<button class="example-btn">Top right</button>
-				<button class="example-btn">Bottom left</button>
-				<button class="example-btn">Bottom center</button>
-				<button class="example-btn">Bottom right</button>
+				<button class="example-btn" id="top-left">Top left</button>
+				<button class="example-btn" id="top-center">Top center</button>
+				<button class="example-btn" id="top-right">Top right</button>
+				<button class="example-btn" id="bottom-left">Bottom left</button>
+				<button class="example-btn" id="bottom-center">Bottom center</button>
+				<button class="example-btn" id="bottom-right">Bottom right</button>
 			</div>
 		</div>
 	</section>
